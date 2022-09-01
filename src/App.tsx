@@ -1,7 +1,12 @@
 import React from 'react'
+import { NavBar } from './components/NavBar'
 
 const App = () => {
-	return <div>React hel yeah App Template</div>
+	return (
+		<>
+			<NavBar />
+		</>
+	)
 }
 
 export default App

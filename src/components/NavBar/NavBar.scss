@@ -1,0 +1,68 @@
+.nav-bar {
+	font-family: EuclidCircularB-Medium, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	display: flex;
+	justify-content: space-between;
+	height: 80px;
+	background: transparent;
+	color: #3d3c3c;
+	border-bottom: 1px solid #eeeeee;
+
+	&__side-button {
+		outline: none;
+		border: none;
+		padding: 27px 24px;
+		width: 80px;
+		height: 80px;
+		background: #3d3c3c;
+	}
+
+	&__menu {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+
+		margin-left: 60px;
+
+		&__pages {
+			display: flex;
+			gap: 64px;
+			margin-right: 77px;
+		}
+
+		&__logo {
+			&__stars {
+				position: absolute;
+				background: white;
+				margin-top: 67px;
+				padding: 0 8px;
+				margin-left: -78px;
+			}
+		}
+
+		&__location {
+			display: flex;
+			gap: 24px;
+			margin: 0 156px 0 87px;
+			text-transform: uppercase;
+		}
+
+		&__auth {
+			display: flex;
+			gap: 8px;
+			margin-right: 40px;
+
+			span {
+				//color: white;
+				border-bottom: 1px dashed white;
+			}
+		}
+
+		&__phone {
+			//color: white;
+			padding-right: 140px;
+		}
+	}
+}
